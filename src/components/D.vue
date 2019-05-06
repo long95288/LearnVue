@@ -8,23 +8,27 @@
     </div>
 </template>
 <script>
-import Vue from 'vue'
-import Router from 'vue-router'
-import Test from './test.vue'
-import Test2 from './test2.vue'
-Vue.use(Router)
-var router = new Router({
-    routes:[
-        {
-            path:'/test',
-            component:Test
-        },
-        {
-            path:'/test2',
-            component:Test2
-        }
-    ]
-})
+//import Vue from 'vue'
+//import Router from 'vue-router'
+//import Test from './test.vue'
+//import Test2 from './test2.vue'
+//Vue.use(Router)
+// var router = new Router({
+//     routes:[
+//         {
+//             path:'/test',
+//             component:Test
+//         },
+//         {
+//             path:'/test2',
+//             component:Test2
+//         }
+//     ]
+// })
+// 引用D文件夹中的路由文件
+import router from '@/D/D'
+// console.log(router)
+//Vue.use(router)
 export default {
     router
 }
