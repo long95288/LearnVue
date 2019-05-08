@@ -27,8 +27,7 @@
 // })
 // 引用D文件夹中的路由文件
 import router from '@/D/D'
-// console.log(router)
-//Vue.use(router)
+
 export default {
     router
 }
